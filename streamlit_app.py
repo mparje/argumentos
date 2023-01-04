@@ -22,7 +22,7 @@ patrones = [
 def analizar_argumento(argumento):
     # Modifica el prompt para incluir los patrones que quieres buscar
     prompt = f"Analiza el siguiente argumento: {argumento}\n"
-    prompt += "Tu tarea es examinar el argumento para ver si cumple con los siguientes criterios de validez:\n"
+    prompt += "Tu tarea es examinar el argumento para ver si incurre en alguna de las siguientes faltas:\n"
     for i, patron in enumerate(patrones):
         prompt += f"{i + 1}. {patron}\n"
 
