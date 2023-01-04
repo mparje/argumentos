@@ -11,7 +11,7 @@ patrones = [
     "los términos del problema se entienden de manera diferente",
     "hay una falta de claridad en los términos utilizados",
     "la fuente de la evidencia no es confiable",
-    "se parte de supuestos falsos o que debería probar",
+    "se parte de supuestos falsos o que no gozan de aceptación general",
     "se ha omitido información relevante",
     "hay una falta de contexto",
     "se incurre en falacias",
