@@ -41,7 +41,7 @@ def analizar_argumento(argumento):
 def main():
     st.title("Herramienta de análisis de argumentos")
     st.caption("Por Moris Polanco")
-    st.caption("Criterios: 1. Los términos del problema se entienden de manera diferente. 2. Hay una falta de claridad en los términos utilizados. 3. La fuente de la evidencia no es confiable. 4. Se parte de supuestos falsos. 5. Se ha omitido información relevante. 6. Hay una falta de contexto. 7. Se incurre en falacias. 8. Es posible llegar a otras conclusiones con las mismas razones. 9. Lo que se atribuye a una causa puede tener otra.")
+    st.caption("Faltas o vicios: 1. Los términos del problema se entienden de manera diferente. 2. Hay una falta de claridad en los términos utilizados. 3. La fuente de la evidencia no es confiable. 4. Se parte de supuestos falsos. 5. Se ha omitido información relevante. 6. Hay una falta de contexto. 7. Se incurre en falacias. 8. Es posible llegar a otras conclusiones con las mismas razones. 9. Lo que se atribuye a una causa puede tener otra.")
     argumento = st.text_area("Ingresa tu argumento aquí:")
     if argumento:
         resultado = analizar_argumento(argumento)
