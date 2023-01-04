@@ -31,7 +31,7 @@ def analizar_argumento(argumento):
     respuesta = openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
-        temperature=0.3,
+        temperature=0.7,
         max_tokens=1024
     )
     resultado = respuesta["choices"][0]["text"]
