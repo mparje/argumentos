@@ -32,6 +32,7 @@ def analizar_argumento(argumento):
         engine="text-davinci-003",
         prompt=prompt,
         temperature=0.7,
+        presence_penalty=0,
         max_tokens=1024
     )
     resultado = respuesta["choices"][0]["text"]
