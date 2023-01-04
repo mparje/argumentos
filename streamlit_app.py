@@ -13,7 +13,7 @@ patrones = [
     "la fuente de la evidencia no es confiable",
     "se parte de supuestos falsos",
     "se parte de supuestos que no gozan de aceptación general",
-    "se ha omitido información relevante",
+    "se ha omitido información relevante o pertinente",
     "hay una falta de contexto",
     "se incurre en falacias",
     "es posible llegar a otras conclusiones con las mismas razones",
@@ -43,7 +43,7 @@ def analizar_argumento(argumento):
 def main():
     st.title("Herramienta de análisis de argumentos")
     st.caption("Por Moris Polanco")
-    st.caption("Faltas o vicios: 1. Los términos del problema se entienden de manera diferente. 2. Hay una falta de claridad en los términos utilizados. 3. La fuente de la evidencia no es confiable. 4. Se parte de supuestos falsos o cuestionables. 5. Se paarte de supuestos que no son de aceptación general. 6.Se ha omitido información relevante. 7. Hay una falta de contexto. 8. Se incurre en falacias. 9. Es posible llegar a otras conclusiones con las mismas razones. 10. Lo que se atribuye a una causa puede tener otra.")
+    st.caption("Faltas o vicios: 1. Los términos del problema se entienden de manera diferente. 2. Hay una falta de claridad en los términos utilizados. 3. La fuente de la evidencia no es confiable. 4. Se parte de supuestos falsos o cuestionables. 5. Se paarte de supuestos que no son de aceptación general. 6. Se ha omitido información relevante o pertinente. 7. Hay una falta de contexto. 8. Se incurre en falacias. 9. Es posible llegar a otras conclusiones con las mismas razones. 10. Lo que se atribuye a una causa puede tener otra.")
     argumento = st.text_area("Ingresa tu argumento aquí:")
     if argumento:
         resultado = analizar_argumento(argumento)
