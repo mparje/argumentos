@@ -4,7 +4,8 @@ import re
 import os
 
 # Configurar la clave de la API de OpenAI
-api_key = st.sidebar.text_input("Enter your OpenAI API key", type="password")
+api_key = st.text_input("Enter your OpenAI API key", type="password")
+
 
 if not api_key:
     st.warning("Please enter a valid API key to continue.")
